@@ -12,9 +12,9 @@ function My_app() {
             {/* <Header />
             <Basicform />
             <ValidationForm />
-            <Propsindex name='EWW' />
-            <Forms /> */}
-            <Propsindex f_name='Excellent' l_name='Web World' email='excellentwebworld@gmail.com' phone_no='0281 236595' />
+            <Propsindex name='EWW' /> */}
+            <Forms />
+            {/* <Propsindex f_name='Excellent' l_name='Web World' email='excellentwebworld@gmail.com' phone_no='0281 236595' /> */}
 
         </div>
     )
