@@ -5,7 +5,7 @@ function Propsindex(props) {
     const [add, setAdd] = useState(0);
     return (
         <div>
-            <Container>
+            <Container className="py-3">
                 <Row className="bg-secondary p-2">
                     <Col className="text-white" md={3}>
                         Your First Name is : {props.f_name}

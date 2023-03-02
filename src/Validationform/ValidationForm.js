@@ -12,7 +12,7 @@ function ValidationForm() {
         setValidated(true);
     }
     return (
-        <Container>
+        <Container className="py-3">
             <Form noValidate validated={validated} className="bg-color p-3" onSubmit={handleSubmit}>
                 <Row>
                     <Form.Group as={Col} md="4" controlId="firstsname" className="my-3">

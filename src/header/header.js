@@ -5,7 +5,7 @@ import brd_logo from '../images/logo.svg'
 function Header() {
     return (
 
-        <Container>
+        <Container className="py-3">
             <Navbar bg="light" expand="lg">
                 {/* <Navbar.Brand href="#home"><img src={logo}></img></Navbar.Brand> */}
                 <Navbar.Brand href="#home">

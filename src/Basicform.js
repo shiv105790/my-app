@@ -2,8 +2,8 @@ import { Form, Button, Container, FormControl, Col, Row } from 'react-bootstrap'
 import './css/style.css'
 function Basicform() {
     return (
-        <Container>
-            <div className="w-md-25 w-100 mx-auto my-3">
+        <Container className="py-3">
+            <div className="w-md-25 w-100 mx-auto my-3" >
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
@@ -63,8 +63,8 @@ function Basicform() {
                         <label htmlFor="floatingPasswordCustom">Password</label>
                     </Form.Floating>
                 </Form>
-            </div>
-        </Container>
+            </div >
+        </Container >
     )
 }
 
