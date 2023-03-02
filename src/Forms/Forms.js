@@ -37,8 +37,8 @@ function Forms() {
     }
     return (
         <div>
-            <Container>
-                <h1>Login</h1>
+            <Container className="py-3">
+                <h1 className="font-24">Login</h1>
                 <Form onSubmit={loginHendle}>
                     <div className="mt-2">
                         <label className="me-3">User Name</label>

@@ -9,12 +9,12 @@ import Forms from './Forms/Forms';
 function My_app() {
     return (
         <div className='my-5'>
-            {/* <Header />
+            <Header />
             <Basicform />
             <ValidationForm />
-            <Propsindex name='EWW' /> */}
+            <Propsindex name='EWW' />
             <Forms />
-            {/* <Propsindex f_name='Excellent' l_name='Web World' email='excellentwebworld@gmail.com' phone_no='0281 236595' /> */}
+            <Propsindex f_name='Excellent' l_name='Web World' email='excellentwebworld@gmail.com' phone_no='0281 236595' />
 
         </div>
     )

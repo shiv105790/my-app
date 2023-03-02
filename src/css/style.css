@@ -1,93 +1,58 @@
-h1{font-size: 71px;}
-h2{font-size: 56px;}
-h3{font-size: 27px;}
-h4{font-size: 19px;}
-.font-74{font-size: 74px;}
-.font-64{font-size: 64px;}
-.font-22{font-size: 22px;}
-.font-20{font-size: 20px;}
-.font-18{font-size: 18px;}
+h1{font-size:48px;}
+h2{font-size:40px;}
+h3{font-size:32px;}
+h4{font-size:28px;}
+.font-22{font-size:22px;}
+.font-20{font-size:20px;}
+.font-18{font-size:18px;}
 .text-orange{color:#FA7A7B}
-.bg-color{background-color: #EF7475;}
-.border-orange::before{content: '';position: absolute;width: 195px;height: 5px;background-color: #EF7475;left: 0;bottom: 0;}
-.first-section{background-color: #FC8A6D;opacity: 0.7;}
-#forverify:focus, #forverify1:focus{box-shadow: none;}
-
-
-
-/*
-Theme Name:		 oceanwp-child
-Theme URI:		 http://childtheme-generator.com/
-Description:	 oceanwp-child is a child theme of OceanWP, created by ChildTheme-Generator.com
-Author:			 oceanwp
-Author URI:		 http://childtheme-generator.com/
-Template:		 oceanwp
-Version:		 1.0.0
-Text Domain:	 oceanwp-child
-*/
-
-
-/*
-    Add your custom styles here
-*/
+.bg-color{background-color:#EF7475;}
+.border-orange::before{content:'';position:absolute;width:195px;height:5px;background-color:#EF7475;left:0;bottom:0;}
+.first-section{background-color:#FC8A6D;opacity:0.7;}
+#forverify:focus,#forverify1:focus{box-shadow:none;}
 
 /*common css*/
-
-.green-color{color: #028031}
-.font-weight-bold{font-weight: bold;}
-.short-border-bottom h2{position: relative;}
-.short-border-bottom h2:after{content: '';background: #000;height: 2px;width: 70px;display: block;}
-.short-border-bottom-center h2:after{content: '';background: #000;height: 2px;width: 70px;display: block;margin: 0 auto;}
+.green-color{color:#028031}
+.font-weight-bold{font-weight:bold;}
+.short-border-bottom h2{position:relative;}
+.short-border-bottom h2:after{content:'';background:#000;height:2px;width:70px;display:block;}
+.short-border-bottom-center h2:after{content:'';background:#000;height:2px;width:70px;display:block;margin:0 auto;}
 
 /* Header css */
-.header-menu nav ul li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item after{font-weight: 700;}
-.header-menu nav ul li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item:after{content: ''; width: 17px; display: block; height: 2px; background: #FF8A25; position: absolute; left: 10px; bottom: 7px; border-left: 0;}
+.header-menu nav ul li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item after{font-weight:700;}
+.header-menu nav ul li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item:after{content:'';width:17px;display:block;height:2px;background:#FF8A25;position:absolute;left:10px;bottom:7px;border-left:0;}
 
 /* home page css */
-.home-main-slider .swiper-pagination.swiper-pagination-bullets{bottom: 0; right: 0;left: auto; width: 5%; height: 100%; background: #fff;padding: 15% 0}
-.home-main-slider .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet{height: 19px !important; width: 2px !important;display: block !important;margin: 0 auto !important}
-.home-main-slider .swiper-pagination.swiper-pagination-bullets:after {content: '03';font-weight: 700;color: #000}
-.home-main-slider .swiper-pagination.swiper-pagination-bullets:before {content: '01';font-weight: 700;color: #000}
-.banner-counter .elementor-countdown-item{position: relative;}
-.banner-counter .elementor-countdown-label{position: absolute; right: -20px; top: 50%; transform: translateY(-50%) rotate(270deg);}
-.testimonial-slider .elementor-testimonial__image img{height: auto !important;object-fit: none;}
-.testimonial-slider .elementor-testimonial__image{margin-top: 84px}
-.testimonial-slider .elementor-testimonial__content{position: relative;}
-.testimonial-slider .elementor-testimonial__footer{padding-right: 153px !important;}
-.testimonial-slider .elementor-testimonial__cite{margin-top: 102px !important}
-.testimonial-slider .elementor-testimonial__content:before{content: url('https://dev.agriexpo.africa//wp-content/uploads/2022/12/Group-190.png'); position: absolute; left: -153px;}
-.testimonial-slider .elementor-swiper-button .eicon-chevron-right:before{content: url('https://dev.agriexpo.africa//wp-content/uploads/2022/12/Group-191.png');}
-.testimonial-slider .elementor-swiper-button .eicon-chevron-left:before{content: url('https://dev.agriexpo.africa//wp-content/uploads/2022/12/Group-191-1.png');transform: rotate(90deg);}
-.testimonial-slider .elementor-swiper-button .eicon-chevron-left{margin-top: 8px}
-.testimonial-slider .elementor-swiper-button.elementor-swiper-button-next{top: auto;transform: none;bottom: 20px;  }
-.testimonial-slider .elementor-swiper-button.elementor-swiper-button-prev {top: auto;  bottom: -12px; right: 76px; left: auto; }
-.readmore-btn{color: #028031 !important;text-transform: uppercase;}
-
-.exhibition-slider .slick-slide{box-shadow: 0px 5px 17px #00000021;background: #fff;margin: 0 12px;margin-bottom: 20px;min-height: 230px;}
-.exhibition-slider .slick-slide > div{padding: 52px 25px 52px!important;}
-.exhibition-slider .slick-slide .content-section p{display: none;}
-.exhibition-slider .slick-slide .content-section{color: #000;position: relative;z-index: 99;font-size: 18px !important;}
-.exhibition-slider{counter-reset: section}
-.exhibition-slider .slick-slide:before{counter-increment: section; content: "0" counter(section);position: absolute; font-size: 50px; font-weight: 700; color: #f5f5f5; z-index: 1;top:20px;}
-
-
-.step-bar-form h4{position: relative;}
-.step-bar-form h4:after{    content: "";
-    border: 1px dashed #9d9d9d;
-    width: 59%;
-    height: 1px;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-/*    left: auto;*/
-    right: auto;
-    z-index: 1;}
-
-
+.home-main-slider .swiper-pagination.swiper-pagination-bullets{bottom:0;right:0;left:auto;width:5%;height:100%;background:#fff;padding:15% 0}
+.home-main-slider .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet{height:19px!important;width:2px!important;display:block!important;margin:0 auto!important}
+.home-main-slider .swiper-pagination.swiper-pagination-bullets:after{content:'03';font-weight:700;color:#000}
+.home-main-slider .swiper-pagination.swiper-pagination-bullets:before{content:'01';font-weight:700;color:#000}
+.banner-counter .elementor-countdown-item{position:relative;}
+.banner-counter .elementor-countdown-label{position:absolute;right:-20px;top:50%;transform:translateY(-50%) rotate(270deg);}
+.testimonial-slider .elementor-testimonial__image img{height:auto!important;object-fit:none;}
+.testimonial-slider .elementor-testimonial__image{margin-top:84px}
+.testimonial-slider .elementor-testimonial__content{position:relative;}
+.testimonial-slider .elementor-testimonial__footer{padding-right:153px!important;}
+.testimonial-slider .elementor-testimonial__cite{margin-top:102px!important}
+.testimonial-slider .elementor-testimonial__content:before{content:url('https://dev.agriexpo.africa//wp-content/uploads/2022/12/Group-190.png');position:absolute;left:-153px;}
+.testimonial-slider .elementor-swiper-button .eicon-chevron-right:before{content:url('https://dev.agriexpo.africa//wp-content/uploads/2022/12/Group-191.png');}
+.testimonial-slider .elementor-swiper-button .eicon-chevron-left:before{content:url('https://dev.agriexpo.africa//wp-content/uploads/2022/12/Group-191-1.png');transform:rotate(90deg);}
+.testimonial-slider .elementor-swiper-button .eicon-chevron-left{margin-top:8px}
+.testimonial-slider .elementor-swiper-button.elementor-swiper-button-next{top:auto;transform:none;bottom:20px;}
+.testimonial-slider .elementor-swiper-button.elementor-swiper-button-prev{top:auto;bottom:-12px;right:76px;left:auto;}
+.readmore-btn{color:#028031!important;text-transform:uppercase;}
+.exhibition-slider .slick-slide{box-shadow:0px 5px 17px #00000021;background:#fff;margin:0 12px;margin-bottom:20px;min-height:230px;}
+.exhibition-slider .slick-slide > div{padding:52px 25px 52px!important;}
+.exhibition-slider .slick-slide .content-section p{display:none;}
+.exhibition-slider .slick-slide .content-section{color:#000;position:relative;z-index:99;font-size:18px!important;}
+.exhibition-slider{counter-reset:section}
+.exhibition-slider .slick-slide:before{counter-increment:section;content:"0"counter(section);position:absolute;font-size:50px;font-weight:700;color:#f5f5f5;z-index:1;top:20px;}
+.step-bar-form h4{position:relative;}
+.step-bar-form h4:after{content:"";border:1px dashed #9d9d9d;width:59%;height:1px;display:inline-block;position:absolute;top:50%;/*    left: auto;*/right:auto;z-index:1;}
 
 /*Responsive css*/
-@media only screen and (max-width: 767px) {
-    .testimonial-slider .elementor-testimonial__image{margin-top: 0px; margin-bottom: 20px;}
-    .testimonial-slider .elementor-testimonial__footer{padding-right: 0px !important;}
-    .testimonial-slider .elementor-testimonial{flex-direction: column-reverse !important;}
+@media only screen and (max-width:767px){
+    .testimonial-slider .elementor-testimonial__image{margin-top:0px;margin-bottom:20px;}
+    .testimonial-slider .elementor-testimonial__footer{padding-right:0px!important;}
+    .testimonial-slider .elementor-testimonial{flex-direction:column-reverse!important;}
 }
