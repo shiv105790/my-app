@@ -5,7 +5,7 @@ import Tiktok from "./Tik Tok/Tiktok";
 function App() {
   return (
     <div>
-      {/* <My_app /> */}
+      <My_app />
       {/* <Tiktok /> */}
     </div>
   );
